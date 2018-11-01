@@ -1,0 +1,51 @@
+@font-face{
+
+    font-family: 'MyWebFont';
+    
+    src: url('red-october.fat.ttf') format("truetype"); 
+    
+        
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+*{
+    font-family: "MyWebFont";
+}
+.navbar-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 250px;
+    align-items: center;
+    
+}
+a.navbar-brand {
+    font-size: 38px;
+    margin-right: 0px;
+}
+.makeRed {
+    height: 20px;
+    width:1000px;
+}
+#low {
+    color: black;
+}
+.list-inline .list-inline-item a {
+    color: rgb(240, 240, 240);
+    font-size: 26px;
+    
+
+    align-self: center;
+}
+.list-inline .list-inline-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-inline {
+    width: 100%;
+    
+}
