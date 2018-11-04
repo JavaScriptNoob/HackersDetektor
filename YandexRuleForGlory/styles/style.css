@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'DIN Pro Regular';
+   
+    src: 
+    url('DINPro.woff') format('woff');
+   
+    font-weight: normal;
+    font-style: normal;
+    }
+
+*{font-family: 'DIN Pro Regular';}
+
+
+.cont, #map {
+
+width: 1200px; 
+height: 800px;
+
+}
+
+.cont{
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+      
+    border: 3px solid #2e0303;
+    border-bottom:3px solid rgb(56, 6, 6);
+    -webkit-box-shadow: 4px 4px 11px 0px rgba(26, 128, 141, 0.75);
+-moz-box-shadow:    4px 4px 11px 0px rgba(228, 47, 15, 0.75);
+box-shadow:         4px 4px 11px 0px rgba(97, 154, 219, 0.75);
+        
+
+    
+}
+body {
+    background-image: url('wheat.png');
+}
+.map-containier {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    
+    margin: 1em 0 0.5em 0;
+    color: #aeb7c9;
+    font-weight: bold;
+    
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 3px rgb(94, 65, 67), 0 4px rgb(36, 70, 165);
+}

@@ -14,17 +14,16 @@
 *{
     font-family: "MyWebFont";
 }
-.navbar-header {
+#center {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-left: 250px;
-    align-items: center;
+    
+   width: 100%;
+   justify-content: center;
     
 }
-a.navbar-brand {
+.text-center {
     font-size: 38px;
-    margin-right: 0px;
+  
 }
 .makeRed {
     height: 20px;
