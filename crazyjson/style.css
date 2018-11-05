@@ -64,6 +64,37 @@ div.img img
 } */ 
 
 .image-board{
-     width: 200px;
-     height: 200px;
+     width: 300px;
+     height: 300px;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1600px;
+  margin-left: 50px;
+  margin-right: 50px;
+} 
+header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+button{
+  width: 300px;
+  height: 100px;
+}
+body{
+  background: url('back.jpg') 10px 10px  repeat;
+  background-size: contain;
+  
+}
+ #container div {
+  margin-left: 10px; }
+ 
+
+.workWithMe{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
 }
